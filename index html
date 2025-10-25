@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Football News Live</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>⚽ Football News Live</h1>
+  </header>
+
+  <!-- 💰 Ad banner under header -->
+  <div class="ad-banner">
+    <script type="text/javascript">
+      atOptions = {
+        'key' : '2945840',
+        'format' : 'iframe',
+        'height' : 90,
+        'width' : 728,
+        'params' : {}
+      };
+      document.write('<scr' + 'ipt type="text/javascript" src="https://www.highperformanceformat.com/2945840/invoke.js"></scr' + 'ipt>');
+    </script>
+  </div>
+
+  <main>
+    <section id="news-section">
+      <h2>Latest Football News</h2>
+      <div id="news-container"><p class="loading">Loading latest football news...</p></div>
+    </section>
+
+    <!-- 💰 Inline ad after every 3 posts -->
+    <div class="ad-banner">
+      <script type="text/javascript">
+        atOptions = {
+          'key' : '2945840',
+          'format' : 'iframe',
+          'height' : 250,
+          'width' : 300,
+          'params' : {}
+        };
+        document.write('<scr' + 'ipt type="text/javascript" src="https://www.highperformanceformat.com/2945840/invoke.js"></scr' + 'ipt>');
+      </script>
+    </div>
+
+    <section id="scores-section">
+      <h2>🏆 Live Scores</h2>
+      <div id="scores-container"><p class="loading">Fetching live matches...</p></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Powered by NewsData.io & Football-Data.org | Built by You 💪</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
